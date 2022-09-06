@@ -1,0 +1,47 @@
+.lobby
+{
+    background-color: #fff;
+}
+
+.lobby__title{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1rem 1rem;
+}
+
+.title{
+    padding: 3rem 3rem 3rem;
+    border-radius: 1.5rem;
+}
+
+.lobby__container
+{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.display__container,
+.display__card
+{
+    padding: 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.4rem;
+}
+
+.display__card
+{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 1.5rem;
+}

@@ -70,12 +70,7 @@
                 </p>
 
                 <div class="quality__buttons">
-                    <form action="{{ route('main') }}" method="post">
-                        @csrf
-                        <button class="button">
-                            Juega AHORA!
-                        </button>
-                    </form>
+                    <a href="{{ route('lobby') }}" class="button">JUGAR</a>
 
                     <a href="#" class="quality__button">
                         Ver más
