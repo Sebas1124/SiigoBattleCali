@@ -19,7 +19,7 @@
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="{{ route('home') }}" class="nav__logo">
+            <a href="{{ route('main') }}" class="nav__logo">
                 <img src="{{ asset('img/siigologo.png') }}" alt="" class="nav__logo-img">
                 Siigo Battle Cali
             </a>

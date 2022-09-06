@@ -18,4 +18,4 @@ Route::get('/', [App\Http\Controllers\FrontController::class, 'index'])->name('m
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
