@@ -3,7 +3,6 @@
 @section('css')
 
 <link rel="stylesheet" href="{{ asset('css/wait.css') }}">
-<link rel="stylesheet" href="{{ asset('css/lobby.css') }}">
 
 @stop
 
@@ -23,12 +22,16 @@
                 <div class="display__card">
                     <table>
                         <thead>
-                            <tr>Nombre</tr>
+                            <tr>
+                                <th>Nombre</th>
+                            </tr>
                         </thead>
                         <tbody>
-                            @foreach ($details as $detail)
-                                <th>Jugador {{ $count_player + 1 }}: {{ $detail->name }}</th>
-                            @endforeach
+                            <tr class="players">
+                                @foreach ($details as $detail)
+                                <td>Jugador {{ $count_player ++ }}: {{ $detail->name }}</td>
+                                @endforeach
+                            </tr>
                         </tbody>
                     </table>
                 </div>

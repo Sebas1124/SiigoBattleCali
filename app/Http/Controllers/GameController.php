@@ -72,7 +72,7 @@ class GameController extends Controller
 
         $details = Game_Details::JOIN('users','users.id','player')->WHERE('id_match', $id_game)->get();
 
-        $count_player = 0;
+        $count_player = 1;
 
         return view('Frontend.game.wait', compact('lobby', 'details', 'count_player'));
     }
