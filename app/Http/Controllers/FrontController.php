@@ -11,3 +11,4 @@ class FrontController extends Controller
         return view('Frontend.index');
     }
 }
+
